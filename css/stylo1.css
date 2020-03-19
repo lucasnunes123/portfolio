@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Loco';
+    src: url("../fonts/tt0627m_.ttf");
+}
+
+/*
+Primeiro bloco, cabeçalho
+*/
+body{
+    background-color: whitesmoke;
+}
+div#tudo {
+    width: 1341.5px;
+}
+div#bloco1{
+    color: whitesmoke;
+    display: block;
+
+    margin-left: -10px;
+    margin-right: -14px;
+    margin-top: -25px;
+
+    position: relative;
+    height: 100px;
+    width: 1351.5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1#bem{
+    position: relative;
+    top: 20px;
+}
+span#text_1{
+    font-size: 25px;
+    top: 0px;
+}
+
+img#perfil {
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px black;
+    width: 26%;
+    height: 64.8%;
+    display: block;
+    position: absolute;
+}
+/*
+Bloco 2
+*/
+div#bloco2{
+    text-align: left;
+    margin-left: 370px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+span#nome {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span#tec {
+    margin-left: 23px;
+    font-size: 23px;
+    color: rgba(0, 0, 0, .5);
+}
+span#tec2 {
+    margin-left: 24px;
+    font-size: 23px;
+    color: rgba(0, 0, 0, .5);
+}
+h2#resumo{
+    padding-left: 0px;
+    color: teal;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+p#text_sobre {
+    padding-left: 0px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 1px gray solid;
+}
+h2{
+    color: teal;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 100px;
+}
+p{
+    padding-left: 120px; 
+    text-align: justify;
+    font-size: 24px;
+    color: rgba(0, 0, 0, .6);
+}
+ul#list_h1{
+    padding-top: -25px;
+    padding-left: 185px; 
+    text-align: justify;
+    font-size: 21px;
+    color: black;
+}
+ul#list_h2{
+    padding-top: -25px;
+    padding-left: 185px; 
+    text-align: justify;
+    font-size: 21px;
+    color: black;
+    border-bottom:  1px gray solid;
+}
+ul#list_h1 li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ul#list_h2 li{
+    display: inline-block;
+    margin-left: 20px;
+    height: 60px;
+}
+ul#list_form{
+    padding-left: 120px; 
+    text-align: justify;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 1px gray solid;
+}
+ul#exp{
+    padding-left: 120px; 
+    text-align: justify;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 1px gray solid;
+}
+div#blocoM{
+    position: fixed;
+    margin-left: -10px;
+    margin-top: -90px;
+    width: 367px;
+    height: 540px;
+}
+ul#listas_menu {
+    list-style: none;
+    font-size: 26px;
+    font-family: 'loco';
+    padding-top: 130px;
+}
+a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+span#op{
+    color: black;
+    font-size: 17px;
+}
+section#secao {
+    display: block;
+    width: 990px;
+    float: left;
+}
+input#botao{
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: teal;
+}
+aside#asado {
+    background-color: teal;
+    float: right;
+    display: block;
+    width: 337px;
+    height: 1954px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px gray solid;
+}
+p#rodape{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
