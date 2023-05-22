@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Lukita Profile</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='/static/bootstrap/css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/static/style.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+
+    <i class="bi bi-list menu-mobile"></i>
+
+<!--Barra Lateral-->
+    <aside id="header">
+        <section class="profile">
+            <img src="/static/img/lukita.jpg" alt="Lucas Nunes">
+            <h1>Lucas Nunes</h1>
+            <div class="icons-social mt-4 text-center">
+                <a href="https://www.linkedin.com/in/lukita" target="_blank">
+                    <i title="Linkedin" class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/lucasnunes123" target="_blank">
+                    <i title="Github" class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i title="Email" class="bi bi-envelope-paper-heart"></i>
+                </a>
+    
+                <a href="#" target="_blank">
+                    <i title="Instagram" class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+<!--Nav barra lateral-->
+        <nav id="menu" class="icons-menu">
+            <ul class="nav flex-column mt-4 text-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobre"><i class="bi bi-person-circle"></i> Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencias"><i class="bi bi-joystick"></i> XP & Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Formacao"><i class="bi bi-journal-bookmark-fill"></i> Formação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-send-fill"></i> Fale Comigo</a>
+                </li>
+              </ul>
+        </nav>          
+    </aside>
+
+    <main id="main">
+<!--Section Olá-->
+        <section id="init" class="row m-0 p-0">
+            <div class="col-md-4 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-white text-shadow">Olá Como vai</h2>
+                <img class="img-fluid shadow" id="hand-trek" src="/static/img/hand-vul.png" title="Vida Longa e Próspera">
+                <span class="text-white text-shadow">Aqui você poderá conhecer um pouco sobre mim</span>
+            </div>
+        </section>
+
+<!--Section sobre-->
+        <section id="sobre" class="container mt-5">
+            <div id="sobre-text" class="row w-100">
+                    <h2 class="sobre-h2">Sobre</h2>
+                    <i class="bi bi-person-circle icon-body"></i> 
+                    <p>
+                        Sou Técnico em informática e Acadêmico em Sistemas de Informação, tenho interesse em Análise e Desenvolvimento de sistemas tanto Front-end quanto Back-end. estou no momento mais familiarizado com tecnologias que envolvem Python e Javascrip.
+                    </p>
+            </div>
+        </section>
+        <hr class="linha"/>
+
+<!--Experiências e Skills-->
+        <section id="experiencias" class="container mt-5">
+            <div id="exp-text" class="row w-100">
+                    <h2>Experiência</h2>
+                    <i class="bi bi-joystick icon-body"></i> 
+                    <p>
+                        Estágio como desenvolvedor Web na <strong><a id="tda-link" href="https://tdainformatica.com.br/" target="_blank">TDA informática</a></strong>, com funções desde suporte e atualização de sites como auxilio na construção.
+                    </p>
+            </div>
+            
+<!-- 
+             Skills
+-->
+            <div id="skill-text" class="row w-100">
+                <div>
+                    <h2>Skills</h2>
+                </div>
+            </div>
+
+            <div id="txt-skills">
+                <h2>Front-end</h2>
+            </div>
+            <div id="logos" class="cont-logos">
+                <img class="logocss" title="CSS" src="/static/img/logo-css.png">
+                <img class="logohtml" title="HTML" src="/static/img/logo-html2.png">
+                <img class="logojs" title="JavaScript" src="/static/img/logo-js.png">
+                <img class="logoflask" title="Flask Web" src="/static/img/logo-flask.png">
+            </div>
+
+            <div id="txt-skills">
+                <h2>Back-end</h2>
+            </div>
+            <div id="logos" class="cont-logos">
+                <img class="logocss" title="Docker" src="/static/img/logo-docker.png">
+                <img class="logopython" title="Python" src="/static/img/logo-python.png">
+                <img class="logoflaskb" title="FastApi" src="/static/img/logo-fastapi.png">
+            </div>
+        </section>
+        <hr class="linha"/>
+<!--
+    Formação
+-->
+        <section id="Formacao" class="container mt-5">
+            <div id="formacao-letter" class="row w-100">
+                    <h2>Formação</h2>
+                    <i class="bi bi-journal-bookmark-fill icon-body"></i>
+            </div>
+        </section>
+
+    </main>
+
+    <script src='/static/bootstrap/js/bootstrap.bundle.min.js'></script>
+    <script src='/static/script.js'></script>
+</body>
+</html>

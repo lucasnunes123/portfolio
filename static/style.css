@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+
+html, body{
+    font-family: Nunito;
+    width: 100%;
+    height: 100%;
+    background: #cccccc;
+    margin: 0;
+}
+
+/*
+    Barra lateral( ASIDE )
+*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #061019;
+    overflow-y: auto;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    padding: 0 20px;
+}
+
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 170px;
+    border: 5px solid #ab0535;
+    border-radius: 40%;
+}
+/*H1 profile*/
+#header .profile h1{
+    text-align: center;
+    color: azure;
+    font-weight: 600;
+}
+/*Icones profile*/
+#header .profile .icons-social a{
+    font-size: 25px;
+    background: #0a030300;
+    color: #ab0535;
+    margin: 0px 0px 0px 10px;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#header .profile .icons-social a:hover {
+    color: white;
+}
+
+#header .profile .icons-social a{
+    font-size: 25px;
+    background: #0a030300;
+    color: #ab0535;
+    margin: 0px 0px 0px 10px;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#header .profile .icons-social a:hover {
+    color: white;
+}
+.icons-menu a, icons-menu a:focus{
+    margin-left: 50px;
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ab0535;
+    display: flex;
+    align-items: center;
+}
+.icons-menu a i, .icons-menu a i:focus{
+    padding: 0px 5px 0px 0px;
+}
+.icons-menu a:hover{
+    color: #fff;
+}
+
+/*
+    Main
+*/
+#main {
+    margin-left: 300px;
+}
+
+/*
+    icones body
+*/
+.icon-body {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Config Background LOTR*/
+section#init{
+    background-image: url(img/bg-dev5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/*Icon hand Olá*/
+#hand-trek {
+    width: 40px;
+    margin-top: -56px;
+    margin-left: 335px; 
+}
+
+
+section#init h2{
+    font-size: 50px;
+    text-shadow: 4px 4px 13px black
+}
+
+section#init span {
+    font-size: 20px;
+    padding-left: 20px ;
+    padding-top: 20px;
+    text-shadow: 4px 4px 13px black;
+}
+
+
+/*
+    Sobre
+*/
+
+section#sobre div#sobre-text{
+    margin-left: 20px
+}
+section#sobre h2{
+    font-size: 40px;
+}
+section#sobre p{
+    font-size: 23px;
+    padding: 1rem;
+}
+
+.linha{
+    margin-left: 20%;
+    width: 60%;
+    color: black;
+}
+
+/*
+    EXPERIENCIA
+*/
+
+section#experiencias div#exp-text{
+    margin-left: 20px
+}
+section#experiencias h2{
+    font-size: 40px;
+}
+section#experiencias p{
+    font-size: 23px;
+    padding: 1rem;
+}
+
+#tda-link {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 600;
+}
+#tda-link:hover{
+    color: rgb(25, 12, 218);
+}
+
+#txt-skills{
+    text-align: center;
+}
+
+section#experiencias div#skill-text {
+    margin-left: 20px
+}
+
+.cont-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+
+.logocss {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: #379ad6;
+    border-radius: 50%;  
+}
+.logocss:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+
+.logohtml {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #d84924;
+    background-color: #d84924;
+    border-radius: 50%;    
+}
+.logohtml:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+.logojs {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    border: 1px solid #f0db4f;
+    background-color: #f0db4f;
+    border-radius: 50%;    
+}
+.logojs:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+.logoflask {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    border: 1px solid #346d9d;
+    background-color: #346d9d;
+    border-radius: 50%;    
+}
+.logoflask:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+
+.logopython{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ece9e8;
+    background-color: #ece9e8;
+    border-radius: 50%;  
+}
+.logopython:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+.logoflaskb {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    border: 1px solid #009485;
+    background-color: #009485;
+    border-radius: 50%;    
+}
+.logoflaskb:hover{
+    transition: ease-in-out 0.3s;
+    width: 95px;
+    height: 95px;
+}
+
+section#Formacao h2{
+    font-size: 40px;
+}
+
+#formacao-letter {
+    margin-left: 20px
+}
+
+
+ /* Works on Firefox */
+ * {
+    scrollbar-width: thin;
+    scrollbar-color: #ab0535 #061019;
+  }
+  
+ /* Works on Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 .3rem black; 
+    background-color: #061019;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #ab0535;
+  
+  }
+
+
+  /*
+    Config: Menu mobile
+  */
+  i.menu-mobile{
+    position: fixed;
+    color: #ab0535;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    justify-items: center;  
+}
+
+.menu-nav-active{
+    overflow: hidden;
+}
+.menu-nav-active #header {
+    left: 0;
+}
+
+
+@media (max-width: 1024px) {
+    #header {
+        left: -300px;
+    }
+    i.menu-mobile {
+        display: flex;
+    }
+    section#init h2{
+        font-size: 30px
+    }
+    section#init span {
+        font-size: 15px; 
+        margin: 0px;
+    }
+    #main {
+        margin-left: 0px;
+    }
+}
